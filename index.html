@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <header>
+        <div class="logo">
+        <img src="awal_belajar_design-removebg-preview.png" alt="">
+        <h1>Formulir pendaftaran ekskul</h1>
+    </header>
+</section>
+<section>
+    <form action="">
+        <fieldset>
+            <legend><b><span>Biodata</span></b></legend>
+            <label for="fname">Nama lengkap :</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="tanggal">Tempat lahir :</label><br>
+            <input type="text" id="tanggal" name="tanggal" value=""><br>
+            <label for="lahir">Tanggal lahir :</label><br>
+            <input type="date" id="lahir" name="lahir" value=""><br>
+            <label for="umur">Usia :</label><br>
+            <input type="number" min="10" max="25"><br>
+            <label for="jenis">Jenis kelamin :</label><br>
+            <input type="radio" id="jenis" name="jenis" value="">
+            <label for="jenis">Laki laki</label><br>
+            <input type="radio" id="jenis" name="jenis" value="">
+            <label for="jenis">Perempuan</label><br>
+            <label for="agama">Agama</label><br>
+            <select id="agama" name="agama" value=""><br>
+                <option value="islam">Islam</option>
+                <option value="islam">Kristen protestan</option>
+                <option value="islam">Kristen katolik</option>
+                <option value="islam">Budha</option>
+                <option value="islam">Hindu</option>
+                <option value="islam">Khonghucu</option>
+                <option value="islam">Penghayat kepercayaan</option>
+            </select><br>
+            <label for="fkelas">Kelas:</label><br>
+            <input type="text" id="fkelas" name="fkelas"><br>
+        </fieldset>
+</form>
+</section>
+<section>
+    <form action="">
+        <fieldset>
+            <legend><b><span>Alamat</span></b></legend>
+            <label for="falam">Alamat Lengkap:</label><br>
+            <textarea name="falam" rows="1" cols="21"></textarea><br>
+            <label for="frt">RT:</label><br>
+            <input type="number" min="01" max="40"><br>
+            <label for="frw">RW:</label><br>
+            <input type="number" min="01" max="40"><br>
+            <label for="fdesa">Desa / Kelurahan:</label><br>
+            <select id="fdesa" name="fdesa">
+                <option value="Cipada">Cipada</option>
+                <option value="Jambudipa">Jambudipa</option>
+                <option value="Padaasih">Pada Asih</option>
+                <option value="Pasirhalang">Pasir Halang</option>
+                <option value="Pasirlangu">Pasir Langu</option>
+                <option value="Tugumukti">Tugu Mukti</option>
+                <option value="Sadangmekar">Sadang Mekar</option>
+            </select><br>
+            <label for="fkec">Kecamatan:</label><br>
+            <select id="fkec" name="fkec">
+                <option value="Cipada">Cisarua</option>
+                <option value="Jambudipa">Parongpong</option>
+                <option value="Padaasih">Lembang</option>
+                <option value="Pasirhalang">Pasir Halang</option>
+                <option value="Pasirlangu">Pasir Langu</option>
+                <option value="Tugumukti">Tugu Mukti</option>
+                <option value="Sadangmekar">Sadang Mekar</option>
+            </select><br>
+            <label for="fkec">Kabupaten:</label><br>
+            <select id="fprof" name="fprof">
+                <option value="Cipada">Jawa tengah</option>
+                <option value="Jambudipa">jawa barat</option>
+                <option value="Padaasih">jawa timur</option>
+                <option value="Pasirhalang">Dki jakarta</option>
+            </select><br>
+            <label for="fname">Kode pos:</label><br>
+            <input type="text" id="fpos" name="fpos" value=""><br>
+        </fieldset>
+    </form>
+</section>
+<section>
+        <form action="">
+            <fieldset>
+                <legend><b><span>Kontak</span></b></legend><br>
+                <label for="tlp">No Telepon:</label><br>
+                <input type="tel" id="tlp" name="tlp"><br>
+                <label for="eml">Email:</label><br>
+                <input type="email" id="eml" name="eml">
+            </fieldset>
+        </form>
+</section>
+<section>
+    <form>
+        <fieldset>
+            <legend><b><span>Akun</span></b></legend>
+            <label for="fname">Username:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" id="pass" name="pass">
+            <label for="pass">Konfirmasi Password:</label>
+            <input type="password" id="pass" name="pass">
+        </fieldset>
+    </form>
+</section>
+<section>
+    <form>
+        <fieldset>
+            <legend><b><span>ekstrakulikuler</span></b></legend>
+            <input list="eskul" name="eskul">
+            <datalist id="eskul">
+                1<option value="Karate"></option>
+                2<option value="Silat"></option>
+                3<option value="Basket"></option>
+                4<option value="Futsal"></option>
+                5<option value="PMR"></option>
+                6<option value="Sispakala"></option>
+                7<option value="Rohis"></option>
+                8<option value="Paskibra"></option>
+                9<option value="Voli"></option>
+                10<option value="Seni tari"></option>
+                <option value="Pramuka"></option>
+                <option value="Taekwondo"></option>
+                <option value="Sastra Sunda"></option>
+                <option value="Seni musik"></option>
+                <option value="Valorant"></option>
+            </datalist>
+        </fieldset>
+    </form>
+</section>
+<section>
+    <form>
+        <fieldset>
+        <legend><b><span>Upload persyaratan</span></b></legend>
+            <label for="foto">Upload pas foto 3x4</label><br>
+            <input type="file" id="foto" name="foto">
+            <img id="preview" src="" alt="">
+
+            <script>
+            const fotoInput = document.getElementById('foto');
+            const previewImg = document.getElementById('preview');
+
+            fotoInput.addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                const reader = new FileReader();
+
+                reader.onload = (event) => {
+                previewImg.src = event.target.result;
+                };
+
+                reader.readAsDataURL(file);
+            });
+            </script><br><br> 
+            <label for="kartu">Upload Kartu tanda pelajar</label><br>
+            <input type="file" id="kartu" name="kartu">
+        </fieldset>
+    </form>
+</section>
+<form>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+<footer>
+    <p><b>hak cipta Latif Ikhsani &copy;2024</b></p>
+</footer>
+</body>
+</html>
